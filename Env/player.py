@@ -48,6 +48,9 @@ class Player:
             self.bet(raise_amount)
 
     def __str__(self):
+        return self.name
+
+    def __repr__(self):
         return f'name: {self.name} | current cards: {self.hand} | chips: {self.chips}'
 
     def evaluate_best_hand(self, board_cards):
