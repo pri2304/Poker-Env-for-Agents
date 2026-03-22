@@ -1,4 +1,3 @@
-from card import Card
 def evaluate_hand(cards):
     rank_counts = get_rank_counts(cards)
     suit_counts = get_suit_counts(cards)
